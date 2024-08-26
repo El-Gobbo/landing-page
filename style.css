@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 
@@ -66,10 +70,10 @@
 button.sign-up {
     background: #3882F6;
     padding: 5px 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
-    color: #E5E7EB;
+    color:  #f9faf8;
 }
 
 .right-hand {
@@ -108,7 +112,7 @@ button.sign-up {
 
 img.mini {
     border: 2px solid blue;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 150px;
     width: auto;
 }
@@ -137,7 +141,7 @@ img.mini {
 }
 
 .call-to-action {
-    margin: 100px 200px;
+    margin: 64px 200px;
     padding: 30px 50px;
     border-radius: 5px;
     background-color: #3882F6;
@@ -146,6 +150,10 @@ img.mini {
     justify-content: space-around;
     align-items: center;
     gap: 16px
+}
+
+.call-body {
+    color:  #E5E7EB;
 }
 
 .call-button button.sign-up {
