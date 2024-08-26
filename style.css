@@ -108,7 +108,7 @@ button.sign-up {
 
 img.mini {
     border: 2px solid blue;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 150px;
     width: auto;
 }
@@ -137,9 +137,9 @@ img.mini {
 }
 
 .call-to-action {
-    margin: 100px 250px;
-    padding: 20px;
-    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 30px 50px;
+    border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
@@ -156,4 +156,13 @@ img.mini {
     display: flex;
     flex: none;
     flex-wrap: nowrap;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: #f9faf8;
 }
