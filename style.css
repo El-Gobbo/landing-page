@@ -65,7 +65,6 @@
 
 button.sign-up {
     background: #3882F6;
-    color: white;
     padding: 5px 30px;
     border-radius: 10px;
     font-size: 18px;
@@ -135,4 +134,26 @@ img.mini {
 .quote-section {
     padding: 100px 250px;
     background-color: #e5e7eb;
+}
+
+.call-to-action {
+    margin: 100px 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px
+}
+
+.call-button button.sign-up {
+    border-color: #f9faf8;
+}
+
+.call-button {
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
 }
