@@ -84,9 +84,13 @@ button.sign-up {
     background: darkgrey;
 }
 
+.right-hand img {
+    width: 100%;
+    height: auto;
+}
 
 .info {
-    padding: 0 70px;
+    padding: 0 70px 70px 70px;
     display: flex;
     flex-direction: column;
 }
@@ -116,5 +120,5 @@ img.mini {
 .panel {
     justify-content: center;
     text-align: center;
-    flex: 1 1 150px;
+    flex: 0 1 300px;
 }
